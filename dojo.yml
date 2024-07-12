@@ -1,4 +1,6 @@
 id: windows-warzone
 name: "Windows Warzone"
+award:
+  emoji: 🪟
 modules:
 - id: windows-crash-course
