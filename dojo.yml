@@ -1,0 +1,4 @@
+id: windows-warzone
+name: "Windows Warzone"
+modules:
+- id: windows-crash-course
