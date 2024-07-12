@@ -1,1 +1,59 @@
 name: Windows Crash Course
+challenges:
+- id: level-1
+  name: level1
+  description: Smoke Test - start windows VM - Connect to port 4001
+- id: level-2
+  name: level2
+  description: Straightforward Buffer Overflow
+- id: level-3
+  name: level3
+  description: BOF with ASLR enabled
+- id: level-4
+  name: level4
+  description: What if win is in a DLL?
+- id: level-5
+  name: level5
+  description: Call a WriteFile in shellcode
+- id: level-6
+  name: level6
+  description: Find and call WriteFile
+- id: level-7
+  name: level7
+  description: Now get the flag yourself.
+resources:
+  - name: "Applying Existing Knowledge"
+    type: lecture
+    slides: 1JVfle0cQaW0oJCVNWfssGgK1eexJjsHnDdCrgPsGtlQ
+    video: Kvkz6lrxMn8
+    playlist: PL-ymxv0nOtqptQV4CrmrtcZ6_jrnVGXi5
+  - name: "Office Hours - Adam - 2024.03.11"
+    type: lecture
+    video: O3eZFriKXXk
+    playlist: PL-ymxv0nOtqr7zM7ZBREoWa-eeSaKFJQd
+  - name: "Office Hours - Robert - 2024.03.15"
+    type: lecture
+    video: wAUWkf4Xia4
+    playlist: PL-ymxv0nOtqr7zM7ZBREoWa-eeSaKFJQd
+  - name: "Class - Robert - 2024.03.19"
+    type: lecture
+    video: p91ddQbbNMo
+    playlist: PL-ymxv0nOtqr7zM7ZBREoWa-eeSaKFJQd
+  - name: "Windows on the Dojo - Getting Started Instructions"
+    type: markdown
+    content: |
+      To get started:
+        - Launch the challenge and enter the normal linux environment.
+        - Use the `windows` command in the linux environment to `start`, `stop`, or `connect` to a Windows virtual machine.  The VM may take a few moments to start.
+        - The Windows desktop gui is accessible over the web at [https://pwn.college/desktop-win](https://pwn.college/desktop-win).
+
+      Other details:
+        - Starting the VM from a practice environment will grant you administrator privileges on the windows machine.  You may need to "log out" and "log in" again before the windows environment acknowledges this.
+        - The flag is located at C:\flag.
+        - Your linux home directory is accessible via the Windows Z drive .
+        - The challenge binary is located on the Y drive in Windows and /challenge in Linux.
+
+      Use the windows VM in practice mode to leverage the installed tools and develop your exploit.
+
+      In order to obtain the flag, run your exploit **FROM THE LINUX ENVIRONMENT** targeting tcp port 4001.
+      There is a proxy service running inside the windows VM with elevated permissions.
