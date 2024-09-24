@@ -1,4 +1,5 @@
 name: Windows Crash Course
+image: pwncollege/windows
 challenges:
 - id: level-1
   name: level1
