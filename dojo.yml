@@ -1,5 +1,6 @@
 id: windows-warzone
 name: "Windows Warzone"
+type: public
 award:
   emoji: 🪟
 modules:
