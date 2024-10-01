@@ -8,6 +8,8 @@ modules:
   name: Windows Crash Course
   description: |
     Learning to work in a new operating system is like learning to walk for the first time again.  Start your journey by revisiting early concepts in a new guise.
+
+    Note: This dojo is *slowly* being developed, including iterating on infrastructure support.  Functionality is subject to change!
   image: pwncollege/windows
 
   challenges:
@@ -55,9 +57,9 @@ modules:
       content: |
         To get started:
           - Launch the challenge and enter the normal linux environment.
-          - Use the `windows` command in the linux environment to `start`, `stop`, or `connect` to a Windows virtual machine.  The VM may take a few moments to start.
-          - The Windows desktop gui is accessible over the web at [https://pwn.college/desktop-win](https://pwn.college/desktop-win).
-
+          - The windows VM should autostart, this may take a moment
+          - You can manually control the windows vm with the `windows` command, ex: `start`, `stop`, or `connect` similar to the linux `vm` command
+          - The Windows desktop gui is accessible over the web at [https://pwn.college/workspace/desktop-windows](https://pwn.college/workspace/desktop-windows).
         Other details:
           - Starting the VM from a practice environment will grant you administrator privileges on the windows machine.  You may need to "log out" and "log in" again before the windows environment acknowledges this.
           - The flag is located at C:\flag.
