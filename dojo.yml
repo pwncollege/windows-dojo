@@ -10,6 +10,8 @@ modules:
     Learning to work in a new operating system is like learning to walk for the first time again.  Start your journey by revisiting early concepts in a new guise.
 
     Note: This dojo is *slowly* being developed, including iterating on infrastructure support.  Functionality is subject to change!
+
+    THIS DOJO IS CURRENTLY NOT WORKING AS INTENEDED.  This will be resolved soon.
   image: pwncollege/windows
 
   challenges:
