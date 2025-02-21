@@ -11,7 +11,7 @@ modules:
 
     Note: This dojo is *slowly* being developed, including iterating on infrastructure support.  Functionality is subject to change!
 
-    THIS DOJO IS CURRENTLY NOT WORKING AS INTENEDED.  This will be resolved soon.
+    THIS DOJO IS CURRENTLY NOT WORKING AS INTENDED.  This will be resolved soon.
   image: pwncollege/windows
 
   challenges:
