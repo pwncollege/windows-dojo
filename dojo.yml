@@ -10,8 +10,6 @@ modules:
     Learning to work in a new operating system is like learning to walk for the first time again.  Start your journey by revisiting early concepts in a new guise.
 
     Note: This dojo is *slowly* being developed, including iterating on infrastructure support.  Functionality is subject to change!
-
-    THIS DOJO IS CURRENTLY NOT WORKING AS INTENDED.  This will be resolved soon.
   image: pwncollege/windows
 
   challenges:
@@ -64,11 +62,11 @@ modules:
           - The Windows desktop gui is accessible over the web at [https://pwn.college/workspace/desktop-windows](https://pwn.college/workspace/desktop-windows).
         Other details:
           - Starting the VM from a practice environment will grant you administrator privileges on the windows machine.  You may need to "log out" and "log in" again before the windows environment acknowledges this.
-          - The flag is located at C:\flag.
-          - Your linux home directory is accessible via the Windows Z drive .
-          - The challenge binary is located on the Y drive in Windows and /challenge in Linux.
+          - The flag is located at `C:\flag`.
+          - The challenge is located at `C:\challenge\`
+          - DO NOT RUN THE CHALLENGE FILE LOCATED AT `Y:`.  This binary cannot obtain the flag and is an implementation detail.
+          - Your linux home directory is accessible via the Windows `Z:` drive .
 
         Use the windows VM in practice mode to leverage the installed tools and develop your exploit.
 
-        In order to obtain the flag, run your exploit **FROM THE LINUX ENVIRONMENT** targeting tcp port 4001.
-        There is a proxy service running inside the windows VM with elevated permissions.
+          In order to obtain the flag, run your exploit **inside the windows environment** targeting challenge binary located in `C:\challenge\`.
