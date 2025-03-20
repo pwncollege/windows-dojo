@@ -34,6 +34,9 @@ modules:
   - id: level-7
     name: level7
     description: Now get the flag yourself.
+  - id: BabyWinCookieMonster1
+    name: BabyWinCookieMonster1
+    description: The cookie monster is hungry for flags.  Can you feed it?
   resources:
     - name: "Applying Existing Knowledge"
       type: lecture
