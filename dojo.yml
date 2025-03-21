@@ -60,16 +60,22 @@ modules:
       content: |
         To get started:
           - Launch the challenge and enter the normal linux environment.
-          - The windows VM should autostart, this may take a moment
-          - You can manually control the windows vm with the `windows` command, ex: `start`, `stop`, or `connect` similar to the linux `vm` command
+          - Use the `windows` command in the linux environment to `start`, `stop`, or `connect` to a Windows virtual machine.  The VM may take a few moments to start.
           - The Windows desktop gui is accessible over the web at [https://pwn.college/workspace/desktop-windows](https://pwn.college/workspace/desktop-windows).
+
+        Obtaining the flag:
+          - The challenge is located in `C:\challenge\`
+          - The flag is located at C:\flag, but the hacker user cannot access it, even from the challenge binary!
+          - The flag can be accessed by a "flag service" running on the windows machine.
+          - The "flag service" will communicate the flag over a pipe located at `\\\\.\\pipe\\LOCAL\\FlagPipe`.
+          - The "flag service" will only communicate the flag to the challenge binary located at `C:\challenge\`.
+
         Other details:
           - Starting the VM from a practice environment will grant you administrator privileges on the windows machine.  You may need to "log out" and "log in" again before the windows environment acknowledges this.
-          - The flag is located at `C:\flag`.
-          - The challenge is located at `C:\challenge\`
+          - Your linux home directory is accessible via the Windows Z drive.  It is recommended to use this to transfer files between the two environments rather than relying on the Z drive directly.
+          - The challenge binary is located at `C:\challenge` in Windows and /challenge in Linux.
           - DO NOT RUN THE CHALLENGE FILE LOCATED AT `Y:`.  This binary cannot obtain the flag and is an implementation detail.
-          - Your linux home directory is accessible via the Windows `Z:` drive .
 
         Use the windows VM in practice mode to leverage the installed tools and develop your exploit.
 
-          In order to obtain the flag, run your exploit **inside the windows environment** targeting challenge binary located in `C:\challenge\`.
+        In order to obtain the flag, run your exploit **inside the windows environment** targeting challenge binary located in `C:\challenge\`.
