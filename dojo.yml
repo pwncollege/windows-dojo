@@ -67,7 +67,7 @@ modules:
           - The challenge is located in `C:\challenge\`
           - The flag is located at C:\flag, but the hacker user cannot access it, even from the challenge binary!
           - The flag can be accessed by a "flag service" running on the windows machine.
-          - The "flag service" will communicate the flag over a pipe located at `\\\\.\\pipe\\LOCAL\\FlagPipe`.
+          - The "flag service" will communicate the flag over a pipe located at `\\.\pipe\LOCAL\FlagPipe`.
           - The "flag service" will only communicate the flag to the challenge binary located at `C:\challenge\`.
 
         Other details:
