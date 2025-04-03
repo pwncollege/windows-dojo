@@ -79,3 +79,15 @@ modules:
         Use the windows VM in practice mode to leverage the installed tools and develop your exploit.
 
         In order to obtain the flag, run your exploit **inside the windows environment** targeting challenge binary located in `C:\challenge\`.
+- id: injection-and-hijacking
+  name: Injection and Hijacking
+  description: |
+      While Windows has many concepts familiar to those seen in Windows, the win32 API and windows security model is quite different and allows for scenarios uncommon in Linux.  This module will explore some classic Windows injection and hijacking techniques that allow code to be executed in the context of another process, such as DLL injection, process hollowing, and thread hijacking.  As an added twist, a rudimentary Endpoint Detection and Response (EDR) system will be used to detect and block these techniques.  Can you bypass the EDR and execute your code in the context of another process?
+
+      Note: This dojo is *slowly* being developed, including iterating on infrastructure support.  Functionality is subject to change!
+  image: pwncollege/windows
+
+  challenges:
+  - id: the-humble-calculator
+    name: The Humble Calculator
+    description: No tricks here, just a simple calculator.  Can you obtain the flag?
