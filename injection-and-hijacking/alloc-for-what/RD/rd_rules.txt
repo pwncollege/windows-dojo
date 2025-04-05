@@ -1,0 +1,3 @@
+VirtualAlloc kernel32 3 none 1
+VirtualAllocEx kernel32 3 none 1
+What does_this 1 mean 0
