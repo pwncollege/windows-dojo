@@ -97,3 +97,11 @@ modules:
   - id: alloc-for-what
     name: Alloc For What?
     description: Some virtual allocations are suspect and will result in process termination by the EDR. Can you obtain the flag?
+  - name: "The Robdefender EDR"
+    type: markdown
+    content: |
+      Shortly into this series of challenges, our custom EDR, "robdefender" will start up inside the window VM.  Over the course of many challenges, robdefender will be updated to detect and block various techniques.  The EDR is not perfect, and there are many ways to bypass it.  The EDR implmentation resides in `C:\challenge\RD` as an implementation detail.
+
+      ROBDEFENDER IS NOT THE INTENDED TARGET FOR THESE CHALLENGES!
+
+      Fair Warning: It is not recommended to spend time understanding the EDR implementation and it is subject to change without notice.
