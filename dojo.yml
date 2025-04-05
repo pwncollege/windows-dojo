@@ -95,7 +95,5 @@ modules:
     name: Hello World
     description: A simple hello world program.  Can you obtain the flag?
   - id: alloc-for-what
-    name: alloc for what?
-    description: Some virtual allocations are suspect. Can you obtain the flag?
-    visibility:
-      start: "2025-04-05T09:00:00-07:00"
+    name: Alloc For What?
+    description: Some virtual allocations are suspect and will result in process termination by the EDR. Can you obtain the flag?
