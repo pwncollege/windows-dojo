@@ -1,3 +1,5 @@
-VirtualAlloc kernel32 3 none 1
-VirtualAllocEx kernel32 3 none 1
+VirtualAlloc kernel32 2 none 1
+VirtualAllocEx kernel32 2 none 2
+VirtualProtect kernel32 2 none 3
+VirtualProtectEx kernel32 2 none 4
 What does_this 1 mean 0
