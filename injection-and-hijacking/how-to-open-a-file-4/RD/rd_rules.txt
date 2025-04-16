@@ -1,0 +1,7 @@
+NtOpenFile ntdll 2 none 1
+NtCreateFile ntdll 2 none 2
+NtFsControlFile ntdll 2 none 2
+NtCreateTransaction ntdll 2 none 1
+NtCreateThread ntdll 3 nope 1
+NtCreateThreadEx ntdll 3 nope 1
+Stop those_pesky 1 threads 0

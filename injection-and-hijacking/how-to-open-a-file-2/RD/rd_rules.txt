@@ -1,0 +1,5 @@
+CreateFileA kernelbase 2 none 1
+CreateFileW kernelbase 2 none 2
+CallNamedPipeW kernelbase 2 none 2
+CreateFile2 kernelbase 2 none 1
+The hooks_go 1 deeper 0

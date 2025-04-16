@@ -1,0 +1,7 @@
+VirtualAlloc kernel32 2 none 1
+VirtualAllocEx kernel32 2 none 2
+VirtualProtect2FromApp kernel32 2 none 3
+VirtualProtect2 kernel32 2 none 4
+VirtualProtectEx kernel32 2 none 4
+VirtualProtect kernel32 2 none 4
+Thats a_lot_of 1 allocs 0

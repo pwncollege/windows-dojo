@@ -97,11 +97,43 @@ modules:
   - id: alloc-for-what
     name: Alloc For What?
     description: Some virtual allocations are suspect and will result in process termination by the EDR. Can you obtain the flag?
+  - id: alloc-for-what-2
+    name: Alloc For What? 2
+    description: Some virtual allocations are suspect and will result in process termination by the EDR. Can you obtain the flag?
+    visibility:
+        start: "2025-04-16T17:30:00-07:00"
+  - id: how-to-open-a-file
+    name: How to open a File
+    description: Some file names are suspect and will result in process termination by the EDR. Can you obtain the flag?
+    visibility:
+        start: "2025-04-16T17:30:00-07:00"
+  - id: how-to-open-a-file-2
+    name: How to open a File 2
+    description: Some file names are suspect and will result in process termination by the EDR. Can you obtain the flag?
+    visibility:
+        start: "2025-04-16T17:30:00-07:00"
+  - id: how-to-open-a-file-3
+    name: How to open a File 3
+    description: Some file names are suspect and will result in process termination by the EDR. Can you obtain the flag?
+    visibility:
+        start: "2025-04-16T17:30:00-07:00"
+  - id: how-to-open-a-file-4
+    name: How to open a File 4
+    description: Some file names are suspect and will result in process termination by the EDR. Can you obtain the flag?
+    visibility:
+        start: "2025-04-16T17:30:00-07:00"
+  - id: how-to-open-a-file-5
+    name: How to open a File 5
+    description: Some file names are suspect and will result in process termination by the EDR. Can you obtain the flag?
+    visibility:
+        start: "2026-05-24T00:00:00-07:00"
+
+  resources:
   - name: "The Robdefender EDR"
     type: markdown
     content: |
-      Shortly into this series of challenges, our custom EDR, "robdefender" will start up inside the window VM.  Over the course of many challenges, robdefender will be updated to detect and block various techniques.  The EDR is not perfect, and there are many ways to bypass it.  The EDR implmentation resides in `C:\challenge\RD` as an implementation detail.
+      Shortly into this series of challenges, our custom EDR, "robdefender" will start up inside the window VM.  Over the course of many challenges, robdefender will be updated to detect and block various techniques.  The EDR is not perfect, and there are many ways to bypass it.  The EDR implmentation resides in `C:\challenge\RD` as an implementation detail.  The "rd_rules.txt" can provide some insight as to what hooks are enabled.
 
-      ROBDEFENDER IS NOT THE INTENDED TARGET FOR THESE CHALLENGES!
+      ROBDEFENDER IS NOT THE INTENDED TARGET FOR THESE CHALLENGES!  The running challenge process is where you should focus.
 
       Fair Warning: It is not recommended to spend time understanding the EDR implementation and it is subject to change without notice.

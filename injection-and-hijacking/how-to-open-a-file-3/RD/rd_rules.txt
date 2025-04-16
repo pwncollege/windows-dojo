@@ -1,0 +1,5 @@
+NtOpenFile ntdll 2 none 1
+NtCreateFile ntdll 2 none 2
+NtFsControlFile ntdll 2 none 2
+NtCreateTransaction ntdll 2 none 1
+No escaping_this 1 hacker 0

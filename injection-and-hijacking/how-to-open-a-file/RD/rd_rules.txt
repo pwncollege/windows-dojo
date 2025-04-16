@@ -1,0 +1,9 @@
+CreateFileA kernel32 2 none 1
+CreateFileW kernel32 2 none 2
+CallNamedPipeA kernel32 2 none 1
+CallNamedPipeW kernel32 2 none 2
+CreateFile2 kernel32 2 none 1
+CreateFileTransactedA kernel32 2 none 3
+CreateFileTransactedW kernel32 2 none 3
+OpenFile kernel32 2 none 3
+I miss 1 open 0

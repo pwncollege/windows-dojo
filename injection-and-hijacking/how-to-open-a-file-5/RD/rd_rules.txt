@@ -1,0 +1,11 @@
+NtOpenFile ntdll 2 none 1
+NtCreateFile ntdll 2 none 2
+NtFsControlFile ntdll 2 none 3
+NtCreateTransaction ntdll 2 none 4
+NtCreateThreadEx ntdll 3 none 6
+NtCreateThread ntdll 3 none 7
+NtAllocateVirtualMemory ntdll 2 none 8
+NtProtectVirtualMemory ntdll 2 none 9
+NtProtectVirtualMemory ntdll 2 none 10
+NtWriteVirtualMemory ntdll 2 none 11
+whats winnt.h 1 do 0
