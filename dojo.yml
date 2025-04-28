@@ -129,6 +129,20 @@ modules:
         start: "2026-05-24T00:00:00-07:00"
 
   resources:
+  - name: "Class Livestream - Windows Security Model - 2025.03.26"
+    type: lecture
+    slides: 1hb5guHSmSIOohZ8nDvy7vckckYuAzZnDtKTesc2YzoU
+    video: hmfYzdg0I9A
+    playlist: PL-ymxv0nOtqoqSMi6euNpzHQkRT8HCgxE
+  - name: "Class Livestream - Injeciton and Hooking - 2025.04..02"
+    type: lecture
+    slides: 1pXCKs4jwNzSKgf_KzDw1K1q_De4h3u9oxnd7T_O7PRQ
+    video: oIvnaODvbwo
+    playlist: PL-ymxv0nOtqoqSMi6euNpzHQkRT8HCgxE
+  - name: "More Windows"
+    type: lecture
+    video: bfyIiuMA4us
+    playlist: PL-ymxv0nOtqoqSMi6euNpzHQkRT8HCgxE
   - name: "The Robdefender EDR"
     type: markdown
     content: |
