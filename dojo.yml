@@ -126,7 +126,7 @@ modules:
     name: How to open a File 5
     description: Some file names are suspect and will result in process termination by the EDR. Can you obtain the flag?
     visibility:
-        start: "2026-05-24T00:00:00-07:00"
+        start: "2025-04-16T00:00:00-07:00"
 
   resources:
   - name: "Class Livestream - Windows Security Model - 2025.03.26"
